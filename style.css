@@ -1,0 +1,66 @@
+:root{
+    --color-theme: rgb(11, 11, 30);
+}
+body{
+    background-color: var(--color-theme);
+   font-family: 'Roboto', sans-serif; 
+ font-size: 2rem;
+ color: azure;
+}
+nav{
+    background-color: var(--color-theme);
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+.btn{
+    font-family: 'Roboto'; 
+ font-size: 1.5rem;
+ border-radius: 0.5rem;
+ border-width: 0ch;
+ color: azure;
+  padding: 0.3rem;
+  width: 7rem;
+  text-align: center;
+}
+
+.btn--group{
+text-align: center;
+}
+.start{
+    background-color: green;
+}
+
+.stop{
+    background-color: red;
+}
+.reset{
+    background-color: blue;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+      font-family: 'Roboto'; 
+    
+
+    line-height: inherit;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: none;
+    
+  }
+
+.reloj{
+    outline: 0ch;
+    border-color: transparent;
+    background-color: transparent;
+    display: block;
+    font-size: 5em;
+    margin-left: auto;
+    padding-left: 1em;
+    margin-right: auto;
+    margin-bottom:0.2em;
+    color: azure; 
+}
